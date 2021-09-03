@@ -1,0 +1,112 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    background: #4a3fee
+}
+
+
+h1{
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  color: white ;
+  font: bold weight 950px;
+}
+
+.container {
+  color:white;
+  font-weight: bold;
+  text-align:justify;
+  padding: 1.5rem;
+
+}
+
+.container li{
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction:column ;
+  text-align:justify;
+  justify-content:space-evenly;
+  align-items: center;
+  box-shadow: none;
+ 
+}
+.container li img {
+  height: 40%;
+  width: 40%;
+  box-sizing: border-box;
+  border-radius: 1rem 5rem;
+  padding: 1vh;
+
+ }
+.container h3 {
+  padding: 1rem;
+  box-shadow: none;
+}
+
+
+.container h5 {
+  padding: 0.5rem;
+  height: 3rem;
+  width: 37%;
+  border-radius: 1rem 5rem;
+}
+
+.container button{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  box-shadow: blue;
+  border-radius: 1rem 3rem;
+  padding: 1.2rem;
+  font-size: 1.2rem;
+  margin: 6vh;
+  text-align:center;
+  background: white;
+
+}
+
+@media screen and (max-width: 1682px){
+  aside#right{
+    display: none;
+  }
+
+  aside#left{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    left: 0;
+    top: 0;
+    border-radius: 0;
+    position: relative;
+  }
+
+  aside#left h1{
+    margin-right: auto;
+  }
+
+  aside#left ul{
+    display: flex;
+    padding: 0;
+    margin-right: 5rem;
+  }
+
+  form{
+    width: 100%;
+  }
+  article#new{
+    padding: 2%;
+  }
+
+  article#lista{
+    padding: 2%;
+  }
+
+  article#lista table{
+    width: 100%;
+  }
+};
